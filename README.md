@@ -4,6 +4,40 @@ Go Beyond is a tourism management website that allows users to explore spots fro
 
 **Live Link**: [Go Beyond](https://project-client-ecf0b.web.app)
 
+## Installation
+
+To install the Go Beyond project on your local machine, follow these steps:
+
+1. **Clone the Repository**: Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/s-shahriar/Go-Beyond-Client.git
+   ```
+
+2. **Navigate to the Project Directory**: Change to the project directory:
+   ```
+   cd go-beyond
+   ```
+
+3. **Install Dependencies**: Install the required dependencies for both the client and server:
+   ```
+   npm install
+   ```
+
+4. **Set Up Environment Variables**: Create a `.env` file in the server directory and add your environment variables:
+   ```
+   PORT=5000
+   MONGO_URI=your_mongo_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. **Start the Development Server**: Run the following command to start the development server:
+   ```
+   npm run dev
+   ```
+
+6. **Access the Application**: Open your browser and go to `http://localhost:3000` to view the application.
+
+
 ### Features
 
 - **Theme Toggling**: Users can switch between light and dark themes for a personalized experience.
