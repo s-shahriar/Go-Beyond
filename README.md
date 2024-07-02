@@ -10,7 +10,7 @@ To install the Go Beyond project on your local machine, follow these steps:
 
 1. **Clone the Repository**: Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/s-shahriar/Go-Beyond-Client.git
+   git clone https://github.com/s-shahriar/Go-Beyond.git
    ```
 
 2. **Navigate to the Project Directory**: Change to the project directory:
@@ -20,6 +20,11 @@ To install the Go Beyond project on your local machine, follow these steps:
 
 3. **Install Dependencies**: Install the required dependencies for both the client and server:
    ```
+   ## for client
+   npm install
+
+   ## for server
+   cd ../server
    npm install
    ```
 
